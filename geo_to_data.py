@@ -6,6 +6,9 @@ with open('MOGEO.json','rt') as f:
 
 city_list =  (list(map(lambda x : x["properties"]["name"] ,json_obj["features"])))
 
-city_json = list(map(lambda x : {"name":x, "value":randint(0, 5000)},city_list))
+city_dict = {}
 
-print(city_json)
+for x in city_list:
+    city_dict[x]= {"incidents_num":randint(0, 5000),"shelter_num":randint(0, 5),"disbursements_num":randint(5000, 50000)}
+
+print(city_dict)
