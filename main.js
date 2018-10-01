@@ -242,6 +242,10 @@ function set_main_container_size() {
     $("#main").width($(window).width() - 50).height($(window).height() - 50);
 }
 
+function is_show_label_by_window_size(){
+    return $("#main").width() > 900 && $("#main").height() > 500;
+}
+
 function add_listener_of_resize() {
     $(window).on('resize', function () {
         set_main_container_size();
@@ -262,11 +266,11 @@ function show_map() {
 
         var option = {
             title: {
-                text: 'Domestic Violence Shelter Funding, Locations and Incidents',
+                text: 'Domestic Violence Shelter Funding, \n Locations and Incidents',
                 subtext: 'Year Ended December 31, 2017',
                 subtext: "MCADSV and Missouri State Highway Patrol data",
                 sublink: "http://www.census.gov/popest/data/datasets.html",
-                left: 'right'
+                left: 'center'
             },
             tooltip: {
                 trigger: 'item',
@@ -281,19 +285,22 @@ function show_map() {
             },
             visualMap: {
                 left: 'right',
+                top:'bottom',
                 min: 0,
                 max: 5000,
-                inRange: {
+                splitNumber: 5,
+                color: ['#d94e5d', '#eac736', '#50a3ba'],
+                /*inRange: {
                     color: ['#313695', '#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
-                },
-                text: ['Incidents Num / High', 'Incidents Num / Low'],           // 文本，默认为数值文本
+                },*/
+                text: ['Incidents Num / High', 'Incidents Num / Low'],
                 calculable: true
             },
             toolbox: {
                 show: true,
                 //orient: 'vertical',
                 left: 'left',
-                top: 'top',
+                top: 'bottom',
                 feature: {
                     dataView: { readOnly: false },
                     restore: {},
@@ -304,10 +311,16 @@ function show_map() {
                 {
                     name: 'Domestic Violence Shelter Resource',
                     type: 'map',
-                    roam: true,
+                    roam: false,
                     map: 'missouri',
+                    selectedMode: true,
                     itemStyle: {
-                        emphasis: { label: { show: true } }
+                        normal:{label:{show:is_show_label_by_window_size()}},
+                        emphasis: {
+                            label: { show: true },
+                            borderColor: '#fff',
+                            borderWidth: 1
+                        }
                     },
                     data: [
                         {
@@ -672,7 +685,7 @@ function show_map() {
                 }
             },
             */
-            // backgroundColor: '#404a59',
+            //backgroundColor: '#404a59',
         }
 
         mapChart.setOption(option);
