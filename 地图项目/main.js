@@ -6,9 +6,10 @@ $.get('./MOGEO.json', function (MOJson) {
 
     var option = {
         title: {
-            text: 'Domestic Violence Shelter Resource',
-            subtext: 'Data from www.census.gov',
-            sublink: 'http://www.census.gov/popest/data/datasets.html',
+            text: 'Domestic Violence Shelter Funding, Locations and Incidents',
+            subtext: 'Year Ended December 31, 2017',
+            subtext: "MCADSV and Missouri State Highway Patrol data",
+            sublink: "http://www.census.gov/popest/data/datasets.html",
             left: 'right'
         },
         tooltip: {
@@ -160,7 +161,7 @@ $.get('./MOGEO.json', function (MOJson) {
                     },
                     {'name': 'Saline', 'value': 3351
                     },
-                    {'name': 'Atchison', 'value': 1433
+                    {'name': 'Atchison', 'value': 0
                     },
                     {'name': 'Jefferson', 'value': 4918
                     },
