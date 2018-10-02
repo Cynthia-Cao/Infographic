@@ -226,11 +226,9 @@ var global_data = {
     }, 'Jasper': {
         'incidents_num': 3057, 'shelter_num': 3, 'disbursements_num': 22515
     }, 'Boone': {
-        'revenue': 3403, 'shelter_num': 0, 'disbursement': 27806
+        'incidents_num': 3403, 'shelter_num': 0, 'disbursements_num': 19315
     }
 };
-
-
 
 var mapChart;
 
