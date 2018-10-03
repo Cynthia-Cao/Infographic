@@ -1,234 +1,235 @@
 var global_data = {
     'Barton': {
-        'domestic violence fee revenue': 3542, 'shelter_num': 4, 'disbursements_num': 15462
+        'incidents_num': 5507, 'shelter_num': 0, 'disbursements_num': 5471
     }, 'Gentry': {
-        'domestic violence fee revenue': 4078, 'shelter_num': 3, 'disbursements_num': 18196
+        'incidents_num': 260, 'shelter_num': 0, 'disbursements_num': 300
     }, 'Barry': {
-        'domestic violence fee revenue': 533, 'shelter_num': 4, 'disbursements_num': 11005
+        'incidents_num': 6588, 'shelter_num': 0, 'disbursements_num': 6610
     }, 'Cape Girardeau': {
-        'domestic violence fee revenue': 2167, 'shelter_num': 4, 'disbursements_num': 37289
+        'incidents_num': 16450, 'shelter_num': 1, 'disbursements_num': 14431
     }, 'McDonald': {
-        'domestic violence fee revenue': 2586, 'shelter_num': 1, 'disbursements_num': 30522
+        'incidents_num': 3392, 'shelter_num': 0, 'disbursements_num': 3392
     }, 'Stoddard': {
-        'domestic violence fee revenue': 2247, 'shelter_num': 2, 'disbursements_num': 37982
+        'incidents_num': 3257, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Hickory': {
-        'domestic violence fee revenue': 3977, 'shelter_num': 3, 'disbursements_num': 17726
+        'incidents_num': 1138, 'shelter_num': 0, 'disbursements_num': 1332
     }, 'Howard': {
-        'domestic violence fee revenue': 2027, 'shelter_num': 4, 'disbursements_num': 46665
+        'incidents_num': 1670, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Linn': {
-        'domestic violence fee revenue': 4679, 'shelter_num': 4, 'disbursements_num': 33947
+        'incidents_num': 275, 'shelter_num': 0, 'disbursements_num': 275
     }, 'Caldwell': {
-        'domestic violence fee revenue': 2777, 'shelter_num': 3, 'disbursements_num': 7947
+        'incidents_num': 600, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Schuyler': {
-        'domestic violence fee revenue': 2535, 'shelter_num': 5, 'disbursements_num': 15527
+        'incidents_num': 206, 'shelter_num': 0, 'disbursements_num': 198
     }, 'Polk': {
-        'domestic violence fee revenue': 3570, 'shelter_num': 5, 'disbursements_num': 28881
+        'incidents_num': 9572, 'shelter_num': 1, 'disbursements_num': 10090
     }, 'St. Clair': {
-        'domestic violence fee revenue': 3001, 'shelter_num': 0, 'disbursements_num': 30173
+        'incidents_num': 727, 'shelter_num': 1, 'disbursements_num': 779
     }, 'Andrew': {
-        'domestic violence fee revenue': 4808, 'shelter_num': 3, 'disbursements_num': 27824
+        'incidents_num': 6160, 'shelter_num': 0, 'disbursements_num': 6160
     }, 'Lafayette': {
-        'domestic violence fee revenue': 3590, 'shelter_num': 3, 'disbursements_num': 25742
+        'incidents_num': 21241, 'shelter_num': 1, 'disbursements_num': 20989
     }, 'Clark': {
-        'domestic violence fee revenue': 255, 'shelter_num': 0, 'disbursements_num': 49939
+        'incidents_num': 4267, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Worth': {
-        'domestic violence fee revenue': 1459, 'shelter_num': 5, 'disbursements_num': 39196
+        'incidents_num': 45, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Randolph': {
-        'domestic violence fee revenue': 3754, 'shelter_num': 3, 'disbursements_num': 22027
+        'incidents_num': 11897, 'shelter_num': 1, 'disbursements_num': 11897
     }, 'Vernon': {
-        'domestic violence fee revenue': 955, 'shelter_num': 1, 'disbursements_num': 31493
+        'incidents_num': 4677, 'shelter_num': 1, 'disbursements_num': 5463
     }, 'Johnson': {
-        'domestic violence fee revenue': 3989, 'shelter_num': 4, 'disbursements_num': 37037
+        'incidents_num': 6414, 'shelter_num': 1, 'disbursements_num': 6420
     }, 'Clay': {
-        'domestic violence fee revenue': 4829, 'shelter_num': 3, 'disbursements_num': 26199
+        'incidents_num': undefined, 'shelter_num': "2-4", 'disbursements_num': undefined
     }, 'Reynolds': {
-        'domestic violence fee revenue': 2837, 'shelter_num': 4, 'disbursements_num': 6190
+        'incidents_num': 284, 'shelter_num': 1, 'disbursements_num': 0
     }, 'Texas': {
-        'domestic violence fee revenue': 3238, 'shelter_num': 3, 'disbursements_num': 19119
+        'incidents_num': 6732, 'shelter_num': 1, 'disbursements_num': 0
     }, 'Dunklin': {
-        'domestic violence fee revenue': 56, 'shelter_num': 3, 'disbursements_num': 49037
+        'incidents_num': 1844, 'shelter_num': 1, 'disbursements_num': 0
     }, 'Lawrence': {
-        'domestic violence fee revenue': 1602, 'shelter_num': 5, 'disbursements_num': 31300
+        'incidents_num': 6617, 'shelter_num': 0, 'disbursements_num': 6742
     }, 'Jackson': {
-        'domestic violence fee revenue': 224, 'shelter_num': 5, 'disbursements_num': 17907
+        'incidents_num': 172469, 'shelter_num': "5+", 'disbursements_num': 182000
     }, 'Chariton': {
-        'domestic violence fee revenue': 4913, 'shelter_num': 4, 'disbursements_num': 15457
+        'incidents_num': 229, 'shelter_num': 0, 'disbursements_num': 250
     }, 'Cooper': {
-        'domestic violence fee revenue': 45, 'shelter_num': 0, 'disbursements_num': 38257
+        'incidents_num': 4970, 'shelter_num': 1, 'disbursements_num': 5061
     }, 'Benton': {
-        'domestic violence fee revenue': 2033, 'shelter_num': 5, 'disbursements_num': 30266
+        'incidents_num': 5619, 'shelter_num': 1, 'disbursements_num': 5981
     }, 'Morgan': {
-        'domestic violence fee revenue': 4117, 'shelter_num': 3, 'disbursements_num': 40218
+        'incidents_num': undefined, 'shelter_num': 0, 'disbursements_num': undefined
     }, 'Butler': {
-        'domestic violence fee revenue': 1436, 'shelter_num': 5, 'disbursements_num': 41662
+        'incidents_num': 8306, 'shelter_num': "2-4", 'disbursements_num': 8315
     }, 'Gasconade': {
-        'domestic violence fee revenue': 857, 'shelter_num': 2, 'disbursements_num': 34256
+        'incidents_num': 565, 'shelter_num': 0, 'disbursements_num': 500
     }, 'Lincoln': {
-        'domestic violence fee revenue': 980, 'shelter_num': 4, 'disbursements_num': 44779
+        'incidents_num': 21006, 'shelter_num': 1, 'disbursements_num': 24639
     }, 'DeKalb': {
-        'domestic violence fee revenue': 4505, 'shelter_num': 3, 'disbursements_num': 36665
+        'incidents_num': 472, 'shelter_num': 1, 'disbursements_num': 474
     }, 'St. Louis': {
-        'domestic violence fee revenue': 655, 'shelter_num': 5, 'disbursements_num': 49760
+        'incidents_num': 312416, 'shelter_num': "5+", 'disbursements_num': 303740
     }, 'Scott': {
-        'domestic violence fee revenue': 2156, 'shelter_num': 0, 'disbursements_num': 35699
+        'incidents_num': 7928, 'shelter_num': "2-4", 'disbursements_num': 10322
     }, 'Miller': {
-        'domestic violence fee revenue': 1992, 'shelter_num': 4, 'disbursements_num': 23036
+        'incidents_num': 6435, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Shelby': {
-        'domestic violence fee revenue': 2884, 'shelter_num': 3, 'disbursements_num': 45284
+        'incidents_num': 140, 'shelter_num': 0, 'disbursements_num': 464
     }, 'Pike': {
-        'domestic violence fee revenue': 3802, 'shelter_num': 1, 'disbursements_num': 24745
+        'incidents_num': 4304, 'shelter_num': 0, 'disbursements_num': 4113
     }, 'Cass': {
-        'domestic violence fee revenue': 1849, 'shelter_num': 3, 'disbursements_num': 26146
+        'incidents_num': 20778, 'shelter_num': "5+", 'disbursements_num': 22918
     }, 'Macon': {
-        'domestic violence fee revenue': 3928, 'shelter_num': 4, 'disbursements_num': 34729
+        'incidents_num': 560, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Daviess': {
-        'domestic violence fee revenue': 2738, 'shelter_num': 2, 'disbursements_num': 20739
+        'incidents_num': 499, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Grundy': {
-        'domestic violence fee revenue': 4469, 'shelter_num': 3, 'disbursements_num': 34705
+        'incidents_num': 582, 'shelter_num': 0, 'disbursements_num': 491
     }, 'Douglas': {
-        'domestic violence fee revenue': 3489, 'shelter_num': 3, 'disbursements_num': 19805
+        'incidents_num': 970, 'shelter_num': 0, 'disbursements_num': 850
     }, 'Howell': {
-        'domestic violence fee revenue': 3161, 'shelter_num': 1, 'disbursements_num': 49415
+        'incidents_num': 14533, 'shelter_num': "2-4", 'disbursements_num': 14574
     }, 'Dent': {
-        'domestic violence fee revenue': 4407, 'shelter_num': 3, 'disbursements_num': 25395
+        'incidents_num': 4119, 'shelter_num': 0, 'disbursements_num': 3742
     }, 'St. Francois': {
-        'domestic violence fee revenue': 3010, 'shelter_num': 1, 'disbursements_num': 21119
+        'incidents_num': 14378, 'shelter_num': 1, 'disbursements_num': 14347
     }, 'Oregon': {
-        'domestic violence fee revenue': 3803, 'shelter_num': 3, 'disbursements_num': 31746
+        'incidents_num': 310, 'shelter_num': 0, 'disbursements_num': 286
     }, 'Ripley': {
-        'domestic violence fee revenue': 1832, 'shelter_num': 4, 'disbursements_num': 23172
+        'incidents_num': undefined, 'shelter_num': 1, 'disbursements_num': undefined
     }, 'Knox': {
-        'domestic violence fee revenue': 983, 'shelter_num': 1, 'disbursements_num': 45810
+        'incidents_num': 750, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Maries': {
-        'domestic violence fee revenue': 3656, 'shelter_num': 1, 'disbursements_num': 47083
+        'incidents_num': 1872, 'shelter_num': 0, 'disbursements_num': 2070
     }, 'Mississippi': {
-        'domestic violence fee revenue': 2859, 'shelter_num': 4, 'disbursements_num': 9034
+        'incidents_num': undefined, 'shelter_num': 1, 'disbursements_num': undefined
     }, 'Crawford': {
-        'domestic violence fee revenue': 1293, 'shelter_num': 5, 'disbursements_num': 25839
+        'incidents_num': undefined, 'shelter_num': 0, 'disbursements_num': undefined
     }, 'Laclede': {
-        'domestic violence fee revenue': 3093, 'shelter_num': 2, 'disbursements_num': 18398
+        'incidents_num': 9615, 'shelter_num': 1, 'disbursements_num': 21300
     }, 'Saline': {
-        'domestic violence fee revenue': 552, 'shelter_num': 3, 'disbursements_num': 5800
+        'incidents_num': 5680, 'shelter_num': 1, 'disbursements_num': 12013
     }, 'Atchison': {
-        'domestic violence fee revenue': 4042, 'shelter_num': 2, 'disbursements_num': 13526
+        'incidents_num': 3949, 'shelter_num': 1, 'disbursements_num': 3592
     }, 'Jefferson': {
-        'domestic violence fee revenue': 347, 'shelter_num': 5, 'disbursements_num': 9278
+        'incidents_num': undefined, 'shelter_num': 1, 'disbursements_num': undefined
     }, 'Washington': {
-        'domestic violence fee revenue': 939, 'shelter_num': 5, 'disbursements_num': 20922
+        'incidents_num': 3817, 'shelter_num': 0, 'disbursements_num': 5576
     }, 'Wright': {
-        'domestic violence fee revenue': 3923, 'shelter_num': 5, 'disbursements_num': 31780
+        'incidents_num': 560, 'shelter_num': 0, 'disbursements_num': 500
     }, 'Iron': {
-        'domestic violence fee revenue': 3761, 'shelter_num': 5, 'disbursements_num': 30520
+        'incidents_num': 255, 'shelter_num': 0, 'disbursements_num': 250
     }, 'Stone': {
-        'domestic violence fee revenue': 3210, 'shelter_num': 0, 'disbursements_num': 40986
+        'incidents_num': 5856, 'shelter_num': "2-4", 'disbursements_num': 8003
     }, 'Cole': {
-        'domestic violence fee revenue': 3740, 'shelter_num': 2, 'disbursements_num': 8133
+        'incidents_num': 13622, 'shelter_num': 1, 'disbursements_num': 13634
     }, 'Franklin': {
-        'domestic violence fee revenue': 2843, 'shelter_num': 0, 'disbursements_num': 39292
+        'incidents_num': 3905, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Phelps': {
-        'domestic violence fee revenue': 1723, 'shelter_num': 5, 'disbursements_num': 43427
+        'incidents_num': 12729, 'shelter_num': 1, 'disbursements_num': 13570
     }, 'Marion': {
-        'domestic violence fee revenue': 3893, 'shelter_num': 0, 'disbursements_num': 15104
+        'incidents_num': 14837, 'shelter_num': 1, 'disbursements_num': 14800
     }, 'Ralls': {
-        'domestic violence fee revenue': 3702, 'shelter_num': 2, 'disbursements_num': 6089
+        'incidents_num': 513, 'shelter_num': 1, 'disbursements_num': 648
     }, 'Webster': {
-        'domestic violence fee revenue': 721, 'shelter_num': 5, 'disbursements_num': 31086
+        'incidents_num': 9145, 'shelter_num': 1, 'disbursements_num': 5459
     }, 'Audrain': {
-        'domestic violence fee revenue': 3123, 'shelter_num': 2, 'disbursements_num': 7922
+        'incidents_num': 3805, 'shelter_num': 1, 'disbursements_num': 3344
     }, 'Ste. Genevieve': {
-        'domestic violence fee revenue': 1489, 'shelter_num': 1, 'disbursements_num': 5714
+        'incidents_num': 9286, 'shelter_num': 0, 'disbursements_num': 10259
     }, 'Dade': {
-        'domestic violence fee revenue': 69, 'shelter_num': 3, 'disbursements_num': 8964
+        'incidents_num': 40, 'shelter_num': 0, 'disbursements_num': 60
     }, 'Camden': {
-        'domestic violence fee revenue': 2447, 'shelter_num': 4, 'disbursements_num': 41435
+        'incidents_num': undefined, 'shelter_num': 1, 'disbursements_num': undefined
     }, 'Greene': {
-        'domestic violence fee revenue': 4258, 'shelter_num': 0, 'disbursements_num': 30162
+        'incidents_num': 46907, 'shelter_num': 1, 'disbursements_num': 50000
     }, 'Livingston': {
-        'domestic violence fee revenue': 226, 'shelter_num': 0, 'disbursements_num': 38019
+        'incidents_num': 1416, 'shelter_num': 0, 'disbursements_num': 2000
     }, 'Callaway': {
-        'domestic violence fee revenue': 4552, 'shelter_num': 5, 'disbursements_num': 21574
+        'incidents_num': 10486, 'shelter_num': 1, 'disbursements_num': 10000
     }, 'Pulaski': {
-        'domestic violence fee revenue': 4353, 'shelter_num': 2, 'disbursements_num': 9531
+        'incidents_num': 13990, 'shelter_num': 1, 'disbursements_num': 16293
     }, 'Nodaway': {
-        'domestic violence fee revenue': 528, 'shelter_num': 3, 'disbursements_num': 44246
+        'incidents_num': 3268, 'shelter_num': 1, 'disbursements_num': 2652
     }, 'Ray': {
-        'domestic violence fee revenue': 2855, 'shelter_num': 2, 'disbursements_num': 38398
+        'incidents_num': 4409, 'shelter_num': 0, 'disbursements_num': 4455
     }, 'Buchanan': {
-        'domestic violence fee revenue': 3944, 'shelter_num': 1, 'disbursements_num': 48079
+        'incidents_num': 15581, 'shelter_num': "2-4", 'disbursements_num': 15581
     }, 'Scotland': {
-        'domestic violence fee revenue': 2025, 'shelter_num': 5, 'disbursements_num': 35147
+        'incidents_num': 170, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Pettis': {
-        'domestic violence fee revenue': 3429, 'shelter_num': 2, 'disbursements_num': 25419
+        'incidents_num': 9038, 'shelter_num': 1, 'disbursements_num': 8916
     }, 'Harrison': {
-        'domestic violence fee revenue': 328, 'shelter_num': 3, 'disbursements_num': 20999
+        'incidents_num': 540, 'shelter_num': 0, 'disbursements_num': 807
     }, 'Newton': {
-        'domestic violence fee revenue': 4200, 'shelter_num': 4, 'disbursements_num': 18603
+        'incidents_num': 7782, 'shelter_num': 1, 'disbursements_num': 7574
     }, 'Sullivan': {
-        'domestic violence fee revenue': 1701, 'shelter_num': 5, 'disbursements_num': 22085
+        'incidents_num': 185, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Ozark': {
-        'domestic violence fee revenue': 1095, 'shelter_num': 2, 'disbursements_num': 41101
+        'incidents_num': 270, 'shelter_num': 0, 'disbursements_num': 250
     }, 'Holt': {
-        'domestic violence fee revenue': 511, 'shelter_num': 0, 'disbursements_num': 36273
+        'incidents_num': 135, 'shelter_num': 0, 'disbursements_num': 135
     }, 'Carter': {
-        'domestic violence fee revenue': 3572, 'shelter_num': 1, 'disbursements_num': 15583
+        'incidents_num': 181, 'shelter_num': 0, 'disbursements_num': 346
     }, 'Lewis': {
-        'domestic violence fee revenue': 3441, 'shelter_num': 0, 'disbursements_num': 10300
+        'incidents_num': 9306, 'shelter_num': 0, 'disbursements_num': 9482
     }, 'Moniteau': {
-        'domestic violence fee revenue': 1933, 'shelter_num': 1, 'disbursements_num': 38918
+        'incidents_num': 2644, 'shelter_num': 0, 'disbursements_num': 2384
     }, 'Shannon': {
-        'domestic violence fee revenue': 1746, 'shelter_num': 2, 'disbursements_num': 42219
+        'incidents_num': 660, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Taney': {
-        'domestic violence fee revenue': 680, 'shelter_num': 1, 'disbursements_num': 26338
-    }, 'St. Charles': {
-        'domestic violence fee revenue': 3207, 'shelter_num': 1, 'disbursements_num': 7712
+        'incidents_num': 7530, 'shelter_num': 1, 'disbursements_num': 26338
+    }, "St. Charles": {
+        'incidents_num': undefined, 'shelter_num': 1, 'disbursements_num': undefined
     }, 'Carroll': {
-        'domestic violence fee revenue': 971, 'shelter_num': 5, 'disbursements_num': 12351
+        'incidents_num': 285, 'shelter_num': 0, 'disbursements_num': 1000
     }, 'Adair': {
-        'domestic violence fee revenue': 2629, 'shelter_num': 3, 'disbursements_num': 26789
+        'incidents_num': 3542, 'shelter_num': 1, 'disbursements_num': 0
     }, 'Clinton': {
-        'domestic violence fee revenue': 4731, 'shelter_num': 1, 'disbursements_num': 46299
+        'incidents_num': 5816, 'shelter_num': 1, 'disbursements_num': 6672
     }, 'Bollinger': {
-        'domestic violence fee revenue': 916, 'shelter_num': 1, 'disbursements_num': 38885
+        'incidents_num': 1102, 'shelter_num': 0, 'disbursements_num': 1104
     }, 'Monroe': {
-        'domestic violence fee revenue': 545, 'shelter_num': 0, 'disbursements_num': 19849
+        'incidents_num': 567, 'shelter_num': 0, 'disbursements_num': 416
     }, 'Bates': {
-        'domestic violence fee revenue': 2720, 'shelter_num': 1, 'disbursements_num': 37170
-    }, 'Mercer': {
-        'domestic violence fee revenue': 3925, 'shelter_num': 2, 'disbursements_num': 37979
+        'incidents_num': 632, 'shelter_num': 0, 'disbursements_num': 677
+    }, ' Mercer': {
+        'incidents_num': 215, 'shelter_num': 0, 'disbursements_num': 215
     }, 'Cedar': {
-        'domestic violence fee revenue': 1602, 'shelter_num': 3, 'disbursements_num': 33429
+        'incidents_num': 4059, 'shelter_num': 0, 'disbursements_num': 7355
     }, 'Montgomery': {
-        'domestic violence fee revenue': 3971, 'shelter_num': 3, 'disbursements_num': 23854
+        'incidents_num': 3428, 'shelter_num': 0, 'disbursements_num': 5012
     }, 'Henry': {
-        'domestic violence fee revenue': 1460, 'shelter_num': 5, 'disbursements_num': 26041
+        'incidents_num': 982, 'shelter_num': 0, 'disbursements_num': 1077
     }, 'Osage': {
-        'domestic violence fee revenue': 3975, 'shelter_num': 2, 'disbursements_num': 21193
+        'incidents_num': 2004, 'shelter_num': 0, 'disbursements_num': 2500
     }, 'New Madrid': {
-        'domestic violence fee revenue': 1984, 'shelter_num': 2, 'disbursements_num': 25876
+        'incidents_num': 1110, 'shelter_num': 1, 'disbursements_num': 1110
     }, 'Putnam': {
-        'domestic violence fee revenue': 4239, 'shelter_num': 1, 'disbursements_num': 42656
+        'incidents_num': 150, 'shelter_num': 0, 'disbursements_num': 170
     }, 'Platte': {
-        'domestic violence fee revenue': 2523, 'shelter_num': 4, 'disbursements_num': 48505
+        'incidents_num': 29467, 'shelter_num': "2-4", 'disbursements_num': 30676
     }, 'Warren': {
-        'domestic violence fee revenue': 971, 'shelter_num': 3, 'disbursements_num': 18381
+        'incidents_num': 8110, 'shelter_num': 1, 'disbursements_num': 16516
     }, 'Perry': {
-        'domestic violence fee revenue': 402, 'shelter_num': 5, 'disbursements_num': 9290
+        'incidents_num': 9413, 'shelter_num': 1, 'disbursements_num': 9656
     }, 'Christian': {
-        'domestic violence fee revenue': 2327, 'shelter_num': 0, 'disbursements_num': 35859
+        'incidents_num': 2455, 'shelter_num': 1, 'disbursements_num': 2455
     }, 'Wayne': {
-        'domestic violence fee revenue': 2141, 'shelter_num': 5, 'disbursements_num': 33455
+        'incidents_num': 518, 'shelter_num': 0, 'disbursements_num': 518
     }, 'Madison': {
-        'domestic violence fee revenue': 4411, 'shelter_num': 5, 'disbursements_num': 47643
+        'incidents_num': 912, 'shelter_num': 0, 'disbursements_num': 996
     }, 'Dallas': {
-        'domestic violence fee revenue': 3422, 'shelter_num': 0, 'disbursements_num': 13061
+        'incidents_num': 572, 'shelter_num': 0, 'disbursements_num': 572
     }, 'Pemiscot': {
-        'domestic violence fee revenue': 528, 'shelter_num': 4, 'disbursements_num': 42625
+        'incidents_num': 647, 'shelter_num': 0, 'disbursements_num': 0
     }, 'Jasper': {
-        'domestic violence fee revenue': 3057, 'shelter_num': 3, 'disbursements_num': 22515
+        'incidents_num': 33368, 'shelter_num': 1, 'disbursements_num': 31449
     }, 'Boone': {
-        'domestic violence fee revenue': 6666, 'shelter_num': 0, 'disbursements_num': 19315
+        'incidents_num': 26126, 'shelter_num': 1, 'disbursements_num': 27806
     }
 };
+
 
 var mapChart;
 
@@ -243,7 +244,7 @@ function set_main_container_size() {
 }
 
 function is_show_label_by_window_size(){
-    return $("#main").width() > 900 && $("#main").height() > 500;
+    return $("#main").width() > 900 &&  $("#main").height() > 500;
 }
 
 function add_listener_of_resize() {
@@ -266,47 +267,38 @@ function show_map() {
 
         var option = {
             title: {
-                text: 'Domestic Violence Shelter Funding, \n Locations and Incidents',
-                subtext: 'Year Ended December 31, 2017',
-                subtext: "MCADSV and Missouri State Highway Patrol data",
-                sublink: "http://www.census.gov/popest/data/datasets.html",
-                left: 'center'
+                text: 'Domestic Violence Shelter Funding, and numbers in every county (MO)',
+                subtext: "Disbursement is the funding a county gives to domestic violence shelters in Missouri"+ "\n"
+                +"Domestic violence fee revenue is the total revenue a county collects in a year for domestic violence funding"+ '\n'
+                +"Shelter number represents the number of shelters in each county", 
+                left: "390",
+            
+                
             },
             tooltip: {
                 trigger: 'item',
                 showDelay: 0,
                 transitionDuration: 0.2,
                 formatter: function (params) {
-                    return params.seriesName + '<br/>' + params.name + ':' + '<br/>' +
-                        'Domestic violence fee revenue : ' + global_data[params.name].domestic violence fee revenue + '<br/>' +
-                        'Shelter number : ' + global_data[params.name].shelter_num + '<br/>' +
-                        'Disbursements : ' + global_data[params.name].disbursements_num;
-                }
-            },
-            visualMap: {
+                    return 'Disbursements : ' + global_data[params.name].disbursements_num + '<br/>' +
+                    'Doemstic violence fee revenue : ' + global_data[params.name].incidents_num + '<br/>' +
+                    'Shelter number : ' + global_data[params.name].shelter_num;
+                
+            }
+        },visualMap:{
                 left: 'right',
-                top:'bottom',
+                top: 'bottom',
                 min: 0,
-                max: 5000,
+                max: 1000,
                 splitNumber: 5,
                 color: ['#d94e5d', 'white'],
                 /*inRange: {
                     color: ['#313695', '#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
                 },*/
-                text: ['Incidents Num / High', 'Incidents Num / Low'],
+                text: ['Disbursements / High', 'Disbursements / Low'],
                 calculable: true
-            },
-            toolbox: {
-                show: true,
-                //orient: 'vertical',
-                left: 'left',
-                top: 'bottom',
-                feature: {
-                    dataView: { readOnly: false },
-                    restore: {},
-                    saveAsImage: {}
-                }
-            },
+        },
+    
             series: [
                 {
                     name: 'Domestic Violence Shelter Resource',
@@ -315,382 +307,382 @@ function show_map() {
                     map: 'missouri',
                     selectedMode: true,
                     itemStyle: {
-                        normal:{label:{show:is_show_label_by_window_size()}},
+                        normal: { label: { show: is_show_label_by_window_size(), fontSize: 8 } },
                         emphasis: {
-                            label: { show:true},
-                            borderColor: 'white',
+                            label: { show: false },
+                            borderColor: '#fff',
                             borderWidth: 1
                         }
                     },
                     data: [
                         {
-                            'name': 'Barton', 'value': 1253
+                            'name': 'Barton', 'value': 5471
                         },
                         {
-                            'name': 'Gentry', 'value': 3579
+                            'name': 'Gentry', 'value': 300
                         },
                         {
-                            'name': 'Barry', 'value': 1852
+                            'name': 'Barry', 'value': 6610
                         },
                         {
-                            'name': 'Cape Girardeau', 'value': 1003
+                            'name': 'Cape Girardeau', 'value': 14431
                         },
                         {
-                            'name': 'McDonald', 'value': 4950
+                            'name': 'McDonald', 'value': 3392
                         },
                         {
-                            'name': 'Stoddard', 'value': 1943
+                            'name': 'Stoddard', 'value': 0
                         },
                         {
-                            'name': 'Hickory', 'value': 2368
+                            'name': 'Hickory', 'value': 1332
                         },
                         {
-                            'name': 'Howard', 'value': 2792
+                            'name': 'Howard', 'value': 0
                         },
                         {
-                            'name': 'Linn', 'value': 4690
+                            'name': 'Linn', 'value': 275
                         },
                         {
-                            'name': 'Caldwell', 'value': 1550
+                            'name': 'Caldwell', 'value': 0
                         },
                         {
-                            'name': 'Schuyler', 'value': 288
+                            'name': 'Schuyler', 'value': 198
                         },
                         {
-                            'name': 'Polk', 'value': 2183
+                            'name': 'Polk', 'value': 10090
                         },
                         {
-                            'name': 'St. Clair', 'value': 4601
+                            'name': 'St. Clair', 'value': 779
                         },
                         {
-                            'name': 'Andrew', 'value': 4231
+                            'name': 'Andrew', 'value': 6160
                         },
                         {
-                            'name': 'Lafayette', 'value': 4550
+                            'name': 'Lafayette', 'value': 20989
                         },
                         {
-                            'name': 'Clark', 'value': 582
+                            'name': 'Clark', 'value': 0
                         },
                         {
-                            'name': 'Worth', 'value': 4531
+                            'name': 'Worth', 'value': 0
                         },
                         {
-                            'name': 'Randolph', 'value': 3994
+                            'name': 'Randolph', 'value': 11897
                         },
                         {
-                            'name': 'Vernon', 'value': 2783
+                            'name': 'Vernon', 'value': 5463
                         },
                         {
-                            'name': 'Johnson', 'value': 2294
+                            'name': 'Johnson', 'value': 6420
                         },
                         {
-                            'name': 'Clay', 'value': 502
+                            'name': 'Clay', 'value': undefined
                         },
                         {
-                            'name': 'Reynolds', 'value': 1790
+                            'name': 'Reynolds', 'value': 0
                         },
                         {
-                            'name': 'Texas', 'value': 3261
+                            'name': 'Texas', 'value': 0
                         },
                         {
-                            'name': 'Dunklin', 'value': 4884
+                            'name': 'Dunklin', 'value': 0
                         },
                         {
-                            'name': 'Lawrence', 'value': 2561
+                            'name': 'Lawrence', 'value': 6742
                         },
                         {
-                            'name': 'Jackson', 'value': 2456
+                            'name': 'Jackson', 'value': 182000
                         },
                         {
-                            'name': 'Chariton', 'value': 1743
+                            'name': 'Chariton', 'value': 250
                         },
                         {
-                            'name': 'Cooper', 'value': 3669
+                            'name': 'Cooper', 'value': 5061
                         },
                         {
-                            'name': 'Benton', 'value': 2922
+                            'name': 'Benton', 'value': 5981
                         },
                         {
-                            'name': 'Morgan', 'value': 3795
+                            'name': 'Morgan', 'value': undefined
                         },
                         {
-                            'name': 'Butler', 'value': 739
+                            'name': 'Butler', 'value': 8315
                         },
                         {
-                            'name': 'Gasconade', 'value': 1771
+                            'name': 'Gasconade', 'value': 500
                         },
                         {
-                            'name': 'Lincoln', 'value': 1838
+                            'name': 'Lincoln', 'value': 24639
                         },
                         {
-                            'name': 'DeKalb', 'value': 4595
+                            'name': 'DeKalb', 'value': 474
                         },
                         {
-                            'name': 'St. Louis', 'value': 1407
+                            'name': 'St. Louis', 'value': 303740
                         },
                         {
-                            'name': 'Scott', 'value': 4223
+                            'name': 'Scott', 'value': 10322
                         },
                         {
-                            'name': 'Miller', 'value': 2084
+                            'name': 'Miller', 'value': 0
                         },
                         {
-                            'name': 'Shelby', 'value': 1800
+                            'name': 'Shelby', 'value': 464
                         },
                         {
-                            'name': 'Pike', 'value': 1423
+                            'name': 'Pike', 'value': 4113
                         },
                         {
-                            'name': 'Cass', 'value': 477
+                            'name': 'Cass', 'value': 22918
                         },
                         {
-                            'name': 'Macon', 'value': 4216
+                            'name': 'Macon', 'value': 0
                         },
                         {
-                            'name': 'Daviess', 'value': 2919
+                            'name': 'Daviess', 'value': 0
                         },
                         {
-                            'name': 'Grundy', 'value': 2462
+                            'name': 'Grundy', 'value': 491
                         },
                         {
-                            'name': 'Douglas', 'value': 2091
+                            'name': 'Douglas', 'value': 850
                         },
                         {
-                            'name': 'Howell', 'value': 928
+                            'name': 'Howell', 'value': 14574
                         },
                         {
-                            'name': 'Dent', 'value': 2083
+                            'name': 'Dent', 'value': 3742
                         },
                         {
-                            'name': 'St. Francois', 'value': 3791
+                            'name': 'St. Francois', 'value': 14347
                         },
                         {
-                            'name': 'Oregon', 'value': 4473
+                            'name': 'Oregon', 'value': 286
                         },
                         {
-                            'name': 'Ripley', 'value': 2741
+                            'name': 'Ripley', 'value': undefined
                         },
                         {
-                            'name': 'Knox', 'value': 2158
+                            'name': 'Knox', 'value': 0
                         },
                         {
-                            'name': 'Maries', 'value': 216
+                            'name': 'Maries', 'value': 2070
                         },
                         {
-                            'name': 'Mississippi', 'value': 793
+                            'name': 'Mississippi', 'value': undefined
                         },
                         {
-                            'name': 'Crawford', 'value': 3474
+                            'name': 'Crawford', 'value': undefined
                         },
                         {
-                            'name': 'Laclede', 'value': 46
+                            'name': 'Laclede', 'value': 21300
                         },
                         {
-                            'name': 'Saline', 'value': 3351
+                            'name': 'Saline', 'value': 12013
                         },
                         {
-                            'name': 'Atchison', 'value': 0
+                            'name': 'Atchison', 'value': 3592
                         },
                         {
-                            'name': 'Jefferson', 'value': 4918
+                            'name': 'Jefferson', 'value': undefined
                         },
                         {
-                            'name': 'Washington', 'value': 1590
+                            'name': 'Washington', 'value': 5576
                         },
                         {
-                            'name': 'Wright', 'value': 1866
+                            'name': 'Wright', 'value': 500
                         },
                         {
-                            'name': 'Iron', 'value': 2534
+                            'name': 'Iron', 'value': 250
                         },
                         {
-                            'name': 'Stone', 'value': 4291
+                            'name': 'Stone', 'value': 8003
                         },
                         {
-                            'name': 'Cole', 'value': 1971
+                            'name': 'Cole', 'value': 13634
                         },
                         {
-                            'name': 'Franklin', 'value': 805
+                            'name': 'Franklin', 'value': 0
                         },
                         {
-                            'name': 'Phelps', 'value': 1644
+                            'name': 'Phelps', 'value': 13570
                         },
                         {
-                            'name': 'Marion', 'value': 4967
+                            'name': 'Marion', 'value': 14800
                         },
                         {
-                            'name': 'Ralls', 'value': 4658
+                            'name': 'Ralls', 'value': 648
                         },
                         {
-                            'name': 'Webster', 'value': 1662
+                            'name': 'Webster', 'value': 5459
                         },
                         {
-                            'name': 'Audrain', 'value': 756
+                            'name': 'Audrain', 'value': 3344
                         },
                         {
-                            'name': 'Ste. Genevieve', 'value': 498
+                            'name': 'Ste. Genevieve', 'value': 10259
                         },
                         {
-                            'name': 'Dade', 'value': 1773
+                            'name': 'Dade', 'value': 60
                         },
                         {
-                            'name': 'Camden', 'value': 3714
+                            'name': 'Camden', 'value': undefined
                         },
                         {
-                            'name': 'Greene', 'value': 257
+                            'name': 'Greene', 'value': 50000
                         },
                         {
-                            'name': 'Livingston', 'value': 2408
+                            'name': 'Livingston', 'value': 2000
                         },
                         {
-                            'name': 'Callaway', 'value': 3934
+                            'name': 'Callaway', 'value': 10000
                         },
                         {
-                            'name': 'Pulaski', 'value': 719
+                            'name': 'Pulaski', 'value': 16293
                         },
                         {
-                            'name': 'Nodaway', 'value': 3003
+                            'name': 'Nodaway', 'value': 2652
                         },
                         {
-                            'name': 'Ray', 'value': 1600
+                            'name': 'Ray', 'value': 4455
                         },
                         {
-                            'name': 'Buchanan', 'value': 2776
+                            'name': 'Buchanan', 'value': 15581
                         },
                         {
-                            'name': 'Scotland', 'value': 286
+                            'name': 'Scotland', 'value': 0
                         },
                         {
-                            'name': 'Pettis', 'value': 3329
+                            'name': 'Pettis', 'value': 8916
                         },
                         {
-                            'name': 'Harrison', 'value': 2305
+                            'name': 'Harrison', 'value': 807
                         },
                         {
-                            'name': 'Newton', 'value': 1415
+                            'name': 'Newton', 'value': 7574
                         },
                         {
-                            'name': 'Sullivan', 'value': 4071
+                            'name': 'Sullivan', 'value': 0
                         },
                         {
-                            'name': 'Ozark', 'value': 3335
+                            'name': 'Ozark', 'value': 250
                         },
                         {
-                            'name': 'Holt', 'value': 4853
+                            'name': 'Holt', 'value': 135
                         },
                         {
-                            'name': 'Carter', 'value': 4040
+                            'name': 'Carter', 'value': 346
                         },
                         {
-                            'name': 'Lewis', 'value': 4309
+                            'name': 'Lewis', 'value': 9482
                         },
                         {
-                            'name': 'Moniteau', 'value': 2566
+                            'name': 'Moniteau', 'value': 2384
                         },
                         {
-                            'name': 'Shannon', 'value': 3461
+                            'name': 'Shannon', 'value': 0
                         },
                         {
-                            'name': 'Taney', 'value': 2792
+                            'name': 'Taney', 'value': 26338
                         },
                         {
-                            'name': 'St. Charles', 'value': 1140
+                            'name': 'St. Charles', 'value': undefined
                         },
                         {
-                            'name': 'Carroll', 'value': 4731
+                            'name': 'Carroll', 'value': 1000
                         },
                         {
-                            'name': 'Adair', 'value': 3543
+                            'name': 'Adair', 'value': 0
                         },
                         {
-                            'name': 'Clinton', 'value': 543
+                            'name': 'Clinton', 'value': 6672
                         },
                         {
-                            'name': 'Bollinger', 'value': 330
+                            'name': 'Bollinger', 'value': 1104
                         },
                         {
-                            'name': 'Monroe', 'value': 4432
+                            'name': 'Monroe', 'value': 416
                         },
                         {
-                            'name': 'St. Louis', 'value': 254
+                            'name': 'St. Louis', 'value': 303740
                         },
                         {
-                            'name': 'Bates', 'value': 3661
+                            'name': 'Bates', 'value': 677
                         },
                         {
-                            'name': 'Mercer', 'value': 3713
+                            'name': 'Mercer', 'value': 215
                         },
                         {
-                            'name': 'Cedar', 'value': 1970
+                            'name': 'Cedar', 'value': 7355
                         },
                         {
-                            'name': 'Montgomery', 'value': 1094
+                            'name': 'Montgomery', 'value': 5012
                         },
                         {
-                            'name': 'Henry', 'value': 3179
+                            'name': 'Henry', 'value': 1077
                         },
                         {
-                            'name': 'Osage', 'value': 4345
+                            'name': 'Osage', 'value': 2500
                         },
                         {
-                            'name': 'New Madrid', 'value': 2328
+                            'name': 'New Madrid', 'value': 1110
                         },
                         {
-                            'name': 'Putnam', 'value': 1448
+                            'name': 'Putnam', 'value': 170
                         },
                         {
-                            'name': 'Platte', 'value': 3627
+                            'name': 'Platte', 'value': 30676
                         },
                         {
-                            'name': 'Warren', 'value': 4797
+                            'name': 'Warren', 'value': 16516
                         },
                         {
-                            'name': 'Perry', 'value': 572
+                            'name': 'Perry', 'value': 9656
                         },
                         {
-                            'name': 'Christian', 'value': 192
+                            'name': 'Christian', 'value': 2455
                         },
                         {
-                            'name': 'Wayne', 'value': 1100
+                            'name': 'Wayne', 'value': 518
                         },
                         {
-                            'name': 'Madison', 'value': 820
+                            'name': 'Madison', 'value': 996
                         },
                         {
-                            'name': 'Dallas', 'value': 1610
+                            'name': 'Dallas', 'value': 572
                         },
                         {
-                            'name': 'Pemiscot', 'value': 2699
+                            'name': 'Pemiscot', 'value': 0
                         },
                         {
-                            'name': 'Jasper', 'value': 2652
+                            'name': 'Jasper', 'value': 31449
                         },
                         {
-                            'name': 'Boone', 'value': 1541
+                            'name': 'Boone', 'value': 27806
                         }
                     ]
                 }
             ],
-            /*
-            geo: {
-                map: 'missouri',
-                itemStyle: {					// 定义样式
-                    normal: {					// 普通状态下的样式
-                        areaColor: '#323c48',
-                        borderColor: '#111'
-                    },
-                    emphasis: {					// 高亮状态下的样式
-                        areaColor: '#2a333d'
-                    }
+        /*
+        geo: {
+            map: 'missouri',
+            itemStyle: {					// 定义样式
+                normal: {					// 普通状态下的样式
+                    areaColor: '#323c48',
+                    borderColor: '#111'
+                },
+                emphasis: {					// 高亮状态下的样式
+                    areaColor: '#2a333d'
                 }
-            },
-            */
-            //backgroundColor: '#404a59',
-        }
+            }
+        },
+        */
+        //backgroundColor: '#404a59',
+    }
 
         mapChart.setOption(option);
 
-    });
+});
 
 }
 
