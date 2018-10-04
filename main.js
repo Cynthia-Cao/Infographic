@@ -333,7 +333,7 @@ function show_map() {
                 {
                     name: 'Domestic Violence Shelter Resource',
                     type: 'map',
-                    right: '20%',
+                    left: '60%',
                     roam: false,
                     map: 'missouri',
                     selectedMode: true,
