@@ -267,17 +267,22 @@ function show_map() {
 
         var option = {
             title: {
-                text: 'How Counties Fund Domestic Violence Shelters in Missouri 2017',
-                subtext: "By Chengzi Cao, Autumn Black, Pate McCuien, Regan Huston", 
+                text:
+                '18 Counties Withheld Funds' + '\n' + 'from Domestic Violence Shelters in 2017',
+                //subtext: "By Chengzi Cao, Autumn Black, Pate McCuien, Regan Huston", 
                 left:"center",
                 textStyle:{
                     fontSize:"30",
+                    
+                    
                 },
-                subtextStyle:{
+              /*  subtextStyle:{
                     fontSize:"15",
                     color:"#5e5d5d",
+                    position:"absolute",
+                    top:"80%",
 
-                }
+                }*/
             
                 
             },
