@@ -268,10 +268,16 @@ function show_map() {
         var option = {
             title: {
                 text: 'Domestic Violence Shelter Funding, and numbers in every county (MO)',
-                subtext: "Disbursement is the funding a county gives to domestic violence shelters in Missouri"+ "\n"
-                +"Domestic violence fee revenue is the total revenue a county collects in a year for domestic violence funding"+ '\n'
-                +"Shelter number represents the number of shelters in each county", 
-                left: "390",
+                subtext: "By Chengzi Cao, Autumn Black, Pate McCuien, Regan Huston", 
+                left:"center",
+                textStyle:{
+                    fontSize:"30",
+                },
+                subtextStyle:{
+                    fontSize:"15",
+                    color:"#5e5d5d",
+
+                }
             
                 
             },
@@ -296,6 +302,9 @@ function show_map() {
                     color: ['#313695', '#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
                 },*/
                 text: ['Disbursements / High', 'Disbursements / Low'],
+                textStyle:{
+                    color:"#5e5d5d",
+                },
                 calculable: true
         },
     
