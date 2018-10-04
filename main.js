@@ -68,7 +68,7 @@ var global_data = {
     }, 'DeKalb': {
         'incidents_num': 472, 'shelter_num': 1, 'disbursements_num': 474
     }, 'St. Louis': {
-        'incidents_num': 312416, 'shelter_num': "5+", 'disbursements_num': 303740
+        'incidents_num': 390658, 'shelter_num': "5+", 'disbursements_num': 423740
     }, 'Scott': {
         'incidents_num': 7928, 'shelter_num': "2-4", 'disbursements_num': 10322
     }, 'Miller': {
@@ -449,7 +449,7 @@ function show_map() {
                             'name': 'DeKalb', 'value': 474
                         },
                         {
-                            'name': 'St. Louis', 'value': 303740
+                            'name': 'St. Louis', 'value': 423740
                         },
                         {
                             'name': 'Scott', 'value': 10322
