@@ -267,7 +267,7 @@ function show_map() {
 
         var option = {
             title: {
-                text: 'Domestic Violence Shelter Funding, and numbers in every county (MO)',
+                text: 'How Counties Fund Domestic Violence Shelters in Missouri 2017',
                 subtext: "By Chengzi Cao, Autumn Black, Pate McCuien, Regan Huston", 
                 left:"center",
                 textStyle:{
