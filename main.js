@@ -243,8 +243,8 @@ function set_main_container_size() {
     $("#main").width($(window).width() - 50).height($(window).height() - 50);
 }
 
-function is_show_label_by_window_size(){
-    return $("#main").width() > 900 &&  $("#main").height() > 500;
+function is_show_label_by_window_size() {
+    return $("#main").width() > 900 && $("#main").height() > 500;
 }
 
 function add_listener_of_resize() {
@@ -253,6 +253,7 @@ function add_listener_of_resize() {
         show_map();
     })
 }
+
 
 function show_map() {
 
@@ -268,51 +269,60 @@ function show_map() {
         var option = {
             title: {
                 text:
-                '18 Counties Withheld Funds' + '\n' + 'from Domestic Violence Shelters in 2017',
+                    '18 Counties Withheld Funds from' + '\n' + 'Domestic Violence Shelters in 2017',
                 //subtext: "By Chengzi Cao, Autumn Black, Pate McCuien, Regan Huston", 
-                left:"center",
-                textStyle:{
-                    fontSize:"30",
-                    
-                    
-                },
-              /*  subtextStyle:{
-                    fontSize:"15",
-                    color:"#5e5d5d",
-                    position:"absolute",
-                    top:"80%",
+                left: "left",
+                textStyle: {
+                    fontSize: "30",
 
-                }*/
-            
-                
+
+                },
+                /*  subtextStyle:{
+                      fontSize:"15",
+                      color:"#5e5d5d",
+                      position:"absolute",
+                      top:"80%",
+  
+                  }*/
+
+
             },
             tooltip: {
                 trigger: 'item',
                 showDelay: 0,
                 transitionDuration: 0.2,
                 formatter: function (params) {
-                    return 'Disbursements : ' + global_data[params.name].disbursements_num + '<br/>' +
-                    'Doemstic violence fee revenue : ' + global_data[params.name].incidents_num + '<br/>' +
-                    'Shelter number : ' + global_data[params.name].shelter_num;
-                
-            }
-        },visualMap:{
+                    return 'Collected funds : ' + global_data[params.name].incidents_num + '<br/>' +
+                        'Distributed funds : ' + global_data[params.name].disbursements_num + '<br/>' +
+                        'Number of shelters : ' + global_data[params.name].shelter_num;
+
+                }
+           
+            }, visualMap: {
                 left: 'right',
                 top: 'bottom',
                 min: 0,
                 max: 1000,
                 splitNumber: 5,
-                color: ['#d94e5d', 'white'],
-                /*inRange: {
-                    color: ['#313695', '#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
-                },*/
-                text: ['Disbursements / High', 'Disbursements / Low'],
-                textStyle:{
-                    color:"#5e5d5d",
+              
+                
+
+
+                inRange: {
+                    color: ['#d94e5d', 'white'],
                 },
-                calculable: true
-        },
-    
+                text: ['Distributed funds / High', 'Distributed funds / Low'],
+                textStyle: {
+                    color: "#5e5d5d",
+                },
+                calculable: false,
+                /*controller: {
+                   set_main_container_size:'200%',
+                   is_show_label_by_window_size: '200%',
+                   fontSize: '200%',
+                }*/
+            },
+
             series: [
                 {
                     name: 'Domestic Violence Shelter Resource',
@@ -677,26 +687,26 @@ function show_map() {
                     ]
                 }
             ],
-        /*
-        geo: {
-            map: 'missouri',
-            itemStyle: {					// 定义样式
-                normal: {					// 普通状态下的样式
-                    areaColor: '#323c48',
-                    borderColor: '#111'
-                },
-                emphasis: {					// 高亮状态下的样式
-                    areaColor: '#2a333d'
+            /*
+            geo: {
+                map: 'missouri',
+                itemStyle: {					// 定义样式
+                    normal: {					// 普通状态下的样式
+                        areaColor: '#323c48',
+                        borderColor: '#111'
+                    },
+                    emphasis: {					// 高亮状态下的样式
+                        areaColor: '#2a333d'
+                    }
                 }
-            }
-        },
-        */
-        //backgroundColor: '#404a59',
-    }
+            },
+            */
+            //backgroundColor: '#404a59',
+        }
 
         mapChart.setOption(option);
 
-});
+    });
 
 }
 
