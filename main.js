@@ -272,6 +272,7 @@ function show_map() {
                     '18 Counties Withheld Funds from' + '\n' + 'Domestic Violence Shelters in 2017',
                 //subtext: "By Chengzi Cao, Autumn Black, Pate McCuien, Regan Huston", 
                 left: "left",
+                top: 60,
                 textStyle: {
                     fontSize: "30",
 
@@ -300,22 +301,26 @@ function show_map() {
            
             }, visualMap: {
                 left: 'right',
-                top: 'bottom',
+                top: 60,
                 min: 0,
                 max: 1000,
                 splitNumber: 5,
               
-                
-
-
+                textGap:20,
+                itemHeight:450,
+                itemWidth:50,
                 inRange: {
                     color: ['#d94e5d', 'white'],
                 },
                 text: ['Distributed funds / High', 'Distributed funds / Low'],
                 textStyle: {
                     color: "#5e5d5d",
+                    fontSize: 15,
+                    fontFamily: "Arial",
+                    textBorderWidth: 1,
+        
                 },
-                calculable: false,
+                calculable: true,
                 /*controller: {
                    set_main_container_size:'200%',
                    is_show_label_by_window_size: '200%',
@@ -327,6 +332,7 @@ function show_map() {
                 {
                     name: 'Domestic Violence Shelter Resource',
                     type: 'map',
+                    left: 550,
                     roam: false,
                     map: 'missouri',
                     selectedMode: true,
