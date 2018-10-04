@@ -316,8 +316,8 @@ function show_map() {
                 textStyle: {
                     color: "#5e5d5d",
                     fontSize: 15,
-                    fontFamily: "Arial",
-                    textBorderWidth: 1,
+                    fontFamily: 'Times New Roman',
+                
         
                 },
                 calculable: true,
