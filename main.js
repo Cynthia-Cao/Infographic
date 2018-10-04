@@ -267,7 +267,7 @@ function show_map() {
         echarts.registerMap('missouri', MOJson);
 
         var option = {
-            title: {
+            /*title: {
                 text:
                     '18 Counties Withheld Funds from' + '\n' + 'Domestic Violence Shelters in 2017',
                 //subtext: "By Chengzi Cao, Autumn Black, Pate McCuien, Regan Huston", 
@@ -275,19 +275,20 @@ function show_map() {
                 top: 60,
                 textStyle: {
                     fontSize: "30",
+                    fontFamily: 'Ultra', serif,
 
 
                 },
-                /*  subtextStyle:{
+                 subtextStyle:{
                       fontSize:"15",
                       color:"#5e5d5d",
                       position:"absolute",
                       top:"80%",
   
-                  }*/
+                  }
 
 
-            },
+            },*/
             tooltip: {
                 trigger: 'item',
                 showDelay: 0,
